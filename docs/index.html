@@ -45,6 +45,12 @@
 <body>
 
 <div class="body-container">
+    <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+    <script>
+        // Sends event to client
+        vkBridge.send('VKWebAppInit');
+    </script>
+
 
     <!-- Start Screen -->
 
@@ -684,13 +690,6 @@
 
 <script src="js/View.js?v=1.1.42" type="module"></script>
 <script src="js/Controller.js?v=1.1.42" type="module"></script>
-
-<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-    
-<script>
-  // Sends event to client
-  vkBridge.send('VKWebAppInit');
-</script>
 
     
 </body>
