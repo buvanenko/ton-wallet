@@ -14,11 +14,11 @@
     <meta name="google" content="notranslate">
 
     <meta name="description" content="Set up your own TON Wallet on The Open Network">
-    <meta name="image" content="assets/favicon/512x512.png">
+    <meta name="image" content="ton-wallet/assets/favicon/512x512.png">
 
     <meta itemprop="name" content="TON Wallet">
     <meta itemprop="description" content="Set up your own TON Wallet on The Open Network">
-    <meta itemprop="image" content="assets/favicon/512x512.png">
+    <meta itemprop="image" content="ton-wallet/assets/favicon/512x512.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="TON Wallet">
     <meta name="twitter:description" content="Set up your own TON Wallet on The Open Network">
@@ -26,18 +26,18 @@
     <meta name="og:description" content="Set up your own TON Wallet on The Open Network">
     <meta name="og:type" content="website">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#0088cc">
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="ton-wallet/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ton-wallet/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="ton-wallet/assets/favicon/192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ton-wallet/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="ton-wallet/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="ton-wallet/assets/favicon/safari-pinned-tab.svg" color="#0088cc">
+    <link rel="shortcut icon" href="ton-wallet/assets/favicon/favicon.ico">
     <meta name="apple-mobile-web-app-title" content="TON Wallet">
     <meta name="application-name" content="TON Wallet">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/favicon/mstile-144x144.png">
-    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="ton-wallet/assets/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="ton-wallet/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="main.css?v=1.1.42">
@@ -51,23 +51,23 @@
     <div id="start" class="screen visibility-hidden">
         <div class="middle">
             <div class="middle-content">
-                <tgs-player data-name="start" src="assets/lottie/intro.tgs"
+                <tgs-player data-name="start" src="ton-wallet/assets/lottie/intro.tgs"
                             width="120" height="120"
                             class="screen-lottie">
                 </tgs-player>
 
                 <div class="screen-title">TON Wallet</div>
                 <div class="screen-text">
-                    TON wallet allows you to make fast and<br>
-                    secure blockchain-based payments<br>
-                    without intermediaries.
+                    Быстрые и безопасные<br>
+                    платежи на основе блокчейна<br>
+                    The Open Network
                 </div>
 
                 <div class="mt-95">
-                    <button id="start_createBtn" class="btn-blue screen-btn">Create My Wallet</button>
+                    <button id="start_createBtn" class="btn-blue screen-btn">Создать кошёлек</button>
                 </div>
                 <div class="mt-20">
-                    <button id="start_importBtn" class="btn-lite font-weight-normal">Import existing wallet
+                    <button id="start_importBtn" class="btn-lite font-weight-normal">Имортировать существующий кошелёк
                     </button>
                 </div>
                 <div class="mt-10">
@@ -90,14 +90,14 @@
         <div class="middle">
             <div class="middle-content">
 
-                <div class="screen-title mt-80">24 Secret Words</div>
+                <div class="screen-title mt-80">24 Секретных Слова</div>
                 <div class="screen-text mb-10">
-                    Please restore access to your <b>non-hardware</b> wallet by<br>
-                    entering the 24 secret words you wrote<br>
-                    down when creating the wallet.
+                    Восстановите доступ к вашему <b>неаппаратному</b> кошельку,<br>
+                    введя 24 секретных слова, которые вы <br>
+                    записали при создании кошелька.
                 </div>
 
-                <button id="import_alertBtn" class="btn-lite">I don't have them</button>
+                <button id="import_alertBtn" class="btn-lite">У меня их нет</button>
 
                 <div id="importWords">
 
@@ -108,7 +108,7 @@
 
                 <div class="clear-both">
                     <button id="import_continueBtn" class="btn-blue screen-btn mt-30 mb-20">
-                        Continue
+                        Продолжить
                     </button>
                 </div>
             </div>
@@ -120,27 +120,27 @@
     <div id="created" class="screen visibility-hidden">
         <div class="middle">
             <div class="middle-content">
-                <tgs-player data-name="created" src="assets/lottie/created.tgs"
+                <tgs-player data-name="created" src="ton-wallet/assets/lottie/created.tgs"
                             width="120" height="120"
                             class="screen-lottie">
                 </tgs-player>
 
-                <div class="screen-title">Congratulations</div>
+                <div class="screen-title">Подзравляем</div>
 
                 <div class="screen-text">
-                    Your TON wallet has just been created.<br>
-                    Only you control it.
+                    Ваш кошелек TON уже создан.<br>
+                    Вы можете им управлять.
                 </div>
 
                 <div class="screen-text">
-                    To be able to always have access to it,<br>
-                    please set up a secure password and write<br>
-                    down secret words.
+                    Чтобы всегда не потерять доступ, пожалуйста,<br>
+                    установите безопасный пароль и запишите<br>
+                    список секретных слов.
                 </div>
 
                 <div>
                     <button id="createdContinueButton" class="btn-blue screen-btn mt-18 mb-20">
-                        Continue
+                        Продолжить
                     </button>
                 </div>
             </div>
@@ -152,22 +152,23 @@
     <div id="backup" class="screen text-align-center visibility-hidden">
         <div class="middle">
             <div class="middle-content">
-                <tgs-player data-name="backup" src="assets/lottie/paper.tgs"
+                <tgs-player data-name="backup" src="ton-wallet/assets/lottie/paper.tgs"
                             width="120" height="120"
                             class="screen-lottie mt-30">
                 </tgs-player>
 
-                <div class="screen-title">24 secret words</div>
+                <div class="screen-title">24 секретным слоем</div>
 
                 <div class="screen-text">
-                    Write down these 24 words in the correct<br>
-                    order and store them in secret place.
+                    Запишите эти 24 слова в правильном порядке<br>
+                    и сохраните их в секретном месте.
                 </div>
 
                 <div class="screen-text">
-                    Use these secret words to restore access to<br>
-                    your wallet if you lose your password or<br>
-                    access to this device.
+                    Используйте эти секретные слова, чтобы<br>
+                    восстановить доступ к вашему кошельку,<br>
+                    если вы потеряете пароль<br>
+                    или доступ к этому устройству.
                 </div>
 
                 <div id="createWords" class="mt-10">
@@ -176,7 +177,7 @@
 
                 <div class="clear-both">
                     <button id="backup_continueBtn" class="btn-blue screen-btn mt-26 mb-20">
-                        Continue
+                        Продолжить
                     </button>
                 </div>
             </div>
@@ -190,7 +191,7 @@
         <div class="middle">
             <div class="middle-content">
 
-                <tgs-player data-name="wordsConfirm" src="assets/lottie/confirm.tgs"
+                <tgs-player data-name="wordsConfirm" src="ton-wallet/assets/lottie/confirm.tgs"
                             width="120" height="120"
                             class="screen-lottie mt-30">
                 </tgs-player>
@@ -225,7 +226,7 @@
     <div id="createPassword" class="screen visibility-hidden">
         <div class="middle">
             <div class="middle-content">
-                <tgs-player data-name="createPassword" src="assets/lottie/lock.tgs"
+                <tgs-player data-name="createPassword" src="ton-wallet/assets/lottie/lock.tgs"
                             width="120" height="120"
                             class="screen-lottie">
                 </tgs-player>
@@ -258,7 +259,7 @@
     <div id="readyToGo" class="screen visibility-hidden">
         <div class="middle">
             <div class="middle-content">
-                <tgs-player data-name="readyToGo" src="assets/lottie/done.tgs"
+                <tgs-player data-name="readyToGo" src="ton-wallet/assets/lottie/done.tgs"
                             width="120" height="120"
                             class="screen-lottie">
                 </tgs-player>
@@ -294,7 +295,7 @@
 
             <div class="balance-container">
                 <div id="balance"></div>
-                <tgs-player data-name="symbol" src="assets/lottie/diamond.tgs"
+                <tgs-player data-name="symbol" src="ton-wallet/assets/lottie/diamond.tgs"
                             width="32" height="32"
                             class="balance-symbol">
                 </tgs-player>
@@ -326,7 +327,7 @@
             <div id="walletCreated" class="display-none">
                 <tgs-player data-name="main"
                             width="150" height="150"
-                            src="assets/lottie/empty.tgs">
+                            src="ton-wallet/assets/lottie/empty.tgs">
                 </tgs-player>
                 <div>Wallet Created</div>
             </div>
@@ -535,7 +536,7 @@
     <!-- Processing Popup -->
 
     <div id="processing" class="popup text-align-center visibility-hidden">
-        <tgs-player data-name="processing" src="assets/lottie/money.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="processing" src="ton-wallet/assets/lottie/money.tgs" width="150" height="150"></tgs-player>
         <div class="popup-title">Sending TON</div>
         <div class="popup-grey-text">Please wait a few seconds for your<br>transaction to be processed..</div>
 
@@ -545,7 +546,7 @@
     <!-- Done Popup -->
 
     <div id="done" class="popup text-align-center pb-10 visibility-hidden">
-        <tgs-player data-name="done" src="assets/lottie/done.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="done" src="ton-wallet/assets/lottie/done.tgs" width="150" height="150"></tgs-player>
         <div class="popup-title">Done!</div>
         <div class="popup-grey-text">1 TON have been send</div>
 
@@ -561,7 +562,7 @@
         <div id="about_version" class="popup-grey-text">
             Version: 1.1.42
         </div>
-        <tgs-player data-name="about" src="assets/lottie/intro.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="about" src="ton-wallet/assets/lottie/intro.tgs" width="150" height="150"></tgs-player>
 
         <div class="popup-grey-text line-height-24">
             API provider: <a href="https://toncenter.com" target="_blank">toncenter.com</a><br>
@@ -589,7 +590,7 @@
     <div id="changePassword" class="popup pb-10 visibility-hidden">
         <div class="popup-title">Change Password</div>
 
-        <tgs-player data-name="changePassword" src="assets/lottie/lock.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="changePassword" src="ton-wallet/assets/lottie/lock.tgs" width="150" height="150"></tgs-player>
 
         <input id="changePassword_oldInput" placeholder="Enter your old password" type="password"
                class="input-password">
@@ -609,7 +610,7 @@
     <div id="enterPassword" class="popup pb-10 visibility-hidden">
         <div class="popup-title">Password</div>
 
-        <tgs-player data-name="enterPassword" src="assets/lottie/lock.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="enterPassword" src="ton-wallet/assets/lottie/lock.tgs" width="150" height="150"></tgs-player>
         <input id="enterPassword_input" placeholder="Enter your password" type="password"
                class="input-password">
 
@@ -668,7 +669,7 @@
     <!-- Loader Popup -->
 
     <div id="loader" class="popup text-align-center pb-10 visibility-hidden">
-        <tgs-player data-name="loader" src="assets/lottie/intro.tgs" width="150" height="150"></tgs-player>
+        <tgs-player data-name="loader" src="ton-wallet/assets/lottie/intro.tgs" width="150" height="150"></tgs-player>
     </div>
 </div>
 
