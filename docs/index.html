@@ -684,7 +684,13 @@
 <script src="js/View.js?v=1.1.42" type="module"></script>
 <script src="js/Controller.js?v=1.1.42" type="module"></script>
 
-<script>n="VKWebAppInit",s="postMessage",i="AndroidBridge",e=window,p=parent,p!=e?p[s]({handler:n,type:"vk-connect",params:{}},"*"):e[i]?e[i][n]("{}"):e.webkit.messageHandlers[n][s]({})</script>
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+    
+<script>
+  // Sends event to client
+  vkBridge.send('VKWebAppInit');
+</script>
+
     
 </body>
 </html>
